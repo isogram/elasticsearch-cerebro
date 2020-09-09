@@ -1,0 +1,101 @@
+# SAMPLE OF SYNONYM CONFIG
+#
+#
+# Keyword
+#
+#
+smartphone, smart phone => smart phone, smartphone
+hape, handphone => handphone, smart phone, smartphone
+batre => battery
+tisu, tissue => tisu, tissue
+iphone, i-phone, i phone => iphone
+ps, play station => playstation
+black berry, bb => blackberry
+power bank => powerbank
+laptop, notebook => laptop, notebook
+lemari es => kulkas
+tv, televisi, tipi => tv, televisi
+hair dryer, hairdryer => hair dryer, hairdryer
+batre, baterai, battery => batre, baterai, battery
+head set, headset => headset
+headphone, head phone => headphone
+ear bud, earbud => ear bud
+ear phone, earphone => earphone
+vga, graphic card, vga card => graphic card, vga card
+kasur, spring bed => kasur, spring bed
+harddisk, hard disk => harddisk, hard disk, hard disk external
+flashdisk, flash disk => flashdisk, flash disk, usb flash disk
+camera, kamera => camera, kamera
+sepeda motor => motor bebek, motor sport, motor matic
+stik ps, stick ps => dualshock wireless controller, stik ps, stick ps
+computer, komputer => desktop tower, desktop all in one, laptop, notebook
+rak, rack => rak, rack
+action cam, action camera => action camera, camcorder, handycam
+jacket, jaket => jacket, jaket
+mouse pad, mousepad => mousepad
+alat panggangan => barbeque grill, alat panggang
+ram => memory
+kabel, cable => kabel, cable
+vga cable, vga converter, cable vga => vga connector, vga adapter
+shoes, sepatu => shoes, sepatu
+mini pc => desktop mini pc intel, desktop mini pc rockchip
+kompas, compass => kompas, compass
+tenda, tent => tenda, tent
+tenis, tennis => tenis, tennis
+tinta printer => tinta printer refill
+tripod camera => tripod camera, tripod
+keyboard folio => keyboard folio
+nintendo switch => game console nintendo switch
+macbook => apple macbook
+softcase, hardcase => casing handphone, softcase, hardcase, hard case, soft case
+window, windows => microsoft windows, microsoft window
+#
+#
+# Category
+#
+#
+tas laptop, tas notebook => notebook hard shell, notebook rolling, notebook sling bag, notebook shoulder, notebook sleeve, notebook backpack, notebook carrying, tas laptop, tas notebook
+projector, proyektor => infocus, projector seminar, projector konferensi, projector meeting, mini projector, projector home, projector ohp, projector interaktif
+smartwatch, smart watch => smart watches, activity trackers, running watches, gps watches, smartwatch
+printer => printer laser, printer multifunction, printer inkjet, printer photo
+printer => printer pos system, printer wide format, printer plotter, printer barcode, printer id card, printer dot matrix
+monitor => lcd monitor, led monitor
+processor, cpu => processor intel, processor amd
+pc, pc desktop => desktop all in one, desktop tower, desktop mini pc intel, desktop mini pc rockchip
+mesin cuci => mesin cuci front load, mesin cuci top load, mesin cuci twin cube
+pakaian, baju => jaket, kemeja, baju
+car holder => gadget mounting, car mount
+psu, power supply => power supply 600w, power supply 1000w
+lensa camera, lensa kamera => slr lens
+keyboard piano => keyboard arranger, keyboard synthesizer, keyboard workstation
+keyboard => keyboard mouse combo, keyboard basic, keyboard desktop, keyboard numeric
+gitar, guitar => gitar elektrik, gitar akustik, ukulele
+smartplug, smart plug => smartplug, smart plug, smart plug home automation
+raket, racket => raket, racket, raket tenis, raket bat, taket badminton, raket bulu tangkis
+rack server, rak server => rack closed, rack wallmount, rack open
+camcorder => camcorder, handycam
+kunci sepeda, gembok sepeda => kunci sepeda
+server => smb server tower, smb server rack
+#
+#
+# Static
+#
+#
+hp honor => smartphone honor
+hp asus => smartphone asus
+hp panasonic => smartphone panasonic
+hp samsung => samsung smartphone
+hp apple => smartphone apple
+hp lg => smartphone lg
+hp motorola => smartphone motorola
+hp nokia => smartphone nokia
+hp lenovo => smartphone lenovo
+hp advan => smartphone advan
+hp blackberry => smartphone blackberry
+hp evercross => smartphone evercross
+hp huawei => smartphone huawei
+hp oppo => smartphone oppo
+hp polytron => smartphone polytron
+hp smartfren => smartphone smartfren
+hp vivo => smartphone vivo
+hp xiaomi => xiaomi smartphone
