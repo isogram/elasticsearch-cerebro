@@ -31,7 +31,7 @@ services:
         ipv4_address: 172.16.202.2
 
   cerebro:
-    image: lmenezes/cerebro:latest
+    image: lmenezes/cerebro:0.8.1
     container_name: cerebro_es7
     ports:
       - 9000:9000
@@ -40,11 +40,31 @@ services:
     dns:
       - 1.1.1.1
     extra_hosts:
-      docker.for.lin.host.internal: 172.16.202.1
-      docker.for.lin.localhost: 172.16.202.1
+      docker.for.lin.host.internal: 172.16.202.2
+      docker.for.lin.localhost: 172.16.202.2
     networks:
       es7net:
         ipv4_address: 172.16.202.3
+
+  kibana:
+      image: docker.elastic.co/kibana/kibana:7.9.2
+      container_name: kibana_es7
+      volumes:
+        - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+      environment:
+        MONITORING_ENABLED: "false"
+      ports:
+        - 5601:5601
+      depends_on:
+        - elasticsearch
+      dns:
+        - 1.1.1.1
+      extra_hosts:
+        docker.for.lin.host.internal: 172.16.202.3
+        docker.for.lin.localhost: 172.16.202.3
+      networks:
+        es7net:
+          ipv4_address: 172.16.202.4
 
 networks:
   es7net:
